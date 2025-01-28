@@ -1,0 +1,92 @@
+body {
+    background-color: lightgray;
+    padding-top: 100px; 
+}
+
+.logo{
+    margin-right:20px ;
+}
+.logo img {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+    
+}
+
+nav {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: lightblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    
+    z-index: 10;
+}
+
+.links
+{
+    flex-grow: 1;
+}
+
+.links ul {
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.links ul li {
+    margin-left: 20px;
+    
+
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background 0.3s ease;
+}
+
+.links ul li a:hover,
+.links ul li a.active {
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+}
+
+
+.container {
+    margin: 20px auto; 
+    width: 70%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2em;
+    color: black;
+}
+
+.container img {
+    width: 70%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.6);
+    transition: all ease-in-out 0.5s;
+}
+
+.container img:hover {
+    width: 90%;
+}

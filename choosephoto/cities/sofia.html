@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style2.css"/>
+    <title>Yambol</title> 
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <ul>
+                <li><a class="active" href="file:///D:/js/choosephoto/index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="file:///D:/js/choosephoto/services.html">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    <div class="login-sec">
+        <button>Login</button>
+    </div>
+    </nav>
+    <h1>Welcome to Sofia!</h1>
+    <p>
+        Sofia, the vibrant capital of Bulgaria, is a city steeped in rich history and contemporary culture. Nestled at the foot of the Vitosha Mountain, it combines scenic beauty with urban energy. As one of Europe’s oldest cities, Sofia is home to ancient Roman ruins, medieval churches, and stunning Orthodox cathedrals like Alexander Nevsky Cathedral. Yet, it’s also modern and forward-looking, filled with lively cafes, art galleries, and tech startups.
+        Known for its warm hospitality, diverse architecture, and green spaces, Sofia offers a unique blend of past and present, making it an intriguing destination for travelers.
+    </p>
+    <div class="carousel-container">
+        <div class="carousel-wrapper" id="carouselWrapper">
+            <img src="sofiaphotos/sofia1.jpg" alt="Photo 1" class="carousel-image">
+            <img src="sofiaphotos/sofia2.jpg" alt="Photo 2" class="carousel-image">
+            <img src="sofiaphotos/sofia3.jpg" alt="Photo 3" class="carousel-image">
+            
+        </div>
+        <button class="carousel-button left" onclick="prevPhoto()">❮</button>
+        <button class="carousel-button right" onclick="nextPhoto()">❯</button>
+    </div>
+    <script src="carousel.js"></script>
+    <a class="return-home" href="file:///D:/js/choosephoto/index.html">Return to homepage</a>
+</body>
+</html>

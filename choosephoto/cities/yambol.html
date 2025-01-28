@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="style2.css"/>
+    <title>Yambol</title> 
+</head>
+<body>
+    <nav>
+        <div class="links">
+            <ul>
+                <li><a class="active" href="file:///D:/js/choosephoto/index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="file:///D:/js/choosephoto/services.html">Services</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </div>
+    
+    <div class="logo">
+        <img src="file:///D:/js/choosephoto/logo.png" alt="Logo">
+    </div>
+    </nav>
+    <h1>Welcome to Yambol!</h1>
+    <p>Yambol is a charming city located in southeastern Bulgaria. <br>
+     Known for its rich history, it dates back to ancient Thrace. <br>
+     The city features historical sites such as the ancient fortress of Kabile and the beautiful St. Nicholas Church. <br>
+      Yambol is also famous for its vibrant cultural life, with numerous festivals and events throughout the year. <br>
+    </p>
+    <div class="carousel-container">
+        <div class="carousel-wrapper" id="carouselWrapper">
+            <img src="yambolphotos/yambol1.jpg" alt="Photo 1" class="carousel-image">
+            <img src="yambolphotos/yambol2.jpg" alt="Photo 2" class="carousel-image">
+            <img src="yambolphotos/yambol4.jpg" alt="Photo 3" class="carousel-image">
+            
+        </div>
+        <button class="carousel-button left" onclick="prevPhoto()">❮</button>
+        <button class="carousel-button right" onclick="nextPhoto()">❯</button>
+    </div>
+    <script src="carousel.js"></script>
+</body>
+</html>

@@ -1,0 +1,211 @@
+body {
+    background-color: lightgray;
+    padding-top: 100px;
+}
+
+.logo{
+    margin-right:20px ;
+}
+.logo img {
+    height: 50px; /* Adjust as needed */
+    width: auto;
+    
+}
+
+nav {
+    display: flex;
+    /*justify-content: center;*/
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0px;
+    background-color: lightblue;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left:0;
+    
+    z-index: 10;
+}
+
+.links
+{
+    flex-grow: 1;
+}
+
+.links ul {
+    display: flex;
+    list-style:none;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+}
+
+.links ul li {
+    margin-left: 20px;
+    
+
+}
+
+.links ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    padding: 8px 16px;
+    transition: background 0.3s ease;
+}
+
+.links ul li a:hover,
+.links ul li a.active {
+    background-color: #fff;
+    color: #333;
+    border-radius: 4px;
+}
+
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #333;
+    padding-top: 50px; 
+}
+
+p {
+    text-align: center;
+    color: #555;
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+/* Services Section */
+#services {
+    width: 80%;
+    margin: 50px auto;
+}
+
+#services h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#services ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+#services ul li {
+    margin-bottom: 30px;
+}
+
+#services ul li h3 {
+    font-size: 1.8em;
+    color: #444;
+    margin-bottom: 10px;
+}
+
+#services ul li p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+/* Pricing Table */
+#pricing {
+    width: 80%;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+}
+
+#pricing h2 {
+    text-align: center;
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 12px;
+    text-align: center;
+    border: 1px solid #ddd;
+}
+
+table th {
+    background-color: #f4f4f4;
+    font-size: 1.1em;
+}
+
+table td {
+    font-size: 1.1em;
+}
+
+table tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+/* Testimonials Section */
+#testimonials {
+    width: 80%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    text-align: center;
+}
+
+#testimonials h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+blockquote {
+    font-size: 1.2em;
+    font-style: italic;
+    color: #666;
+    margin: 20px auto;
+    max-width: 800px;
+}
+
+/* Contact CTA Section */
+#contact-cta {
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+#contact-cta h2 {
+    font-size: 2.5em;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#contact-cta p {
+    font-size: 1.2em;
+    color: #555;
+    margin-bottom: 20px;
+}
+
+#contact-cta .button {
+    background-color: lightblue;
+    color: #fff;
+    font-size: 1.2em;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background 0.3s ease;
+}
+
+#contact-cta .button:hover {
+    background-color: #333;
+    color: #fff;
+}
