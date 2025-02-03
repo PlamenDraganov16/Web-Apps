@@ -4,27 +4,37 @@
     <meta charset="UTF-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <link rel="stylesheet" href="style2.css"/>
-    <title>Yambol</title> 
+    <title>Varna</title> 
 </head>
 <body>
     <nav>
         <div class="links">
             <ul>
                 <li><a class="active" href="file:///D:/js/choosephoto/index.html">Home</a></li>
-                <li><a href="about.html">About</a></li>
+                <li><a href="#">About</a></li>
                 <li><a href="file:///D:/js/choosephoto/services.html">Services</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
         </div>
-    <div class="login-sec">
-        <button>Login</button>
-    </div>
+        <div class="logo">
+            <img src="file:///D:/js/choosephoto/logo.png" alt="Logo">
+        </div>
     </nav>
     <h1>Welcome to Varna!</h1>
     <p>
         Varna, known as the "Sea Capital" of Bulgaria, is a lively coastal city on the shores of the Black Sea. It's renowned for its beautiful sandy beaches, vibrant nightlife, and cultural landmarks. The city’s Roman Thermae, an ancient bath complex, reflects Varna’s long history, while the stunning Sea Garden offers lush greenery and scenic sea views. Museums like the Varna Archaeological Museum showcase the city’s rich past, including the oldest processed gold in the world. 
         Every summer, Varna hosts festivals and concerts, making it a popular spot for both Bulgarian and international visitors.
     </p>
-    <a class="return-home" href="file:///D:/js/choosephoto/index.html">Return to homepage</a>
+    <div class="carousel-container">
+        <div class="carousel-wrapper" id="carouselWrapper">
+            <img src="varnaphotos/varna1.jpg" alt="Photo 1" class="carousel-image">
+            <img src="varnaphotos/varna2.jpg" alt="Photo 2" class="carousel-image">
+            <img src="varnaphotos/varna3.jpg" alt="Photo 3" class="carousel-image">
+            
+        </div>
+        <button class="carousel-button left" onclick="prevPhoto()">❮</button>
+        <button class="carousel-button right" onclick="nextPhoto()">❯</button>
+    </div>
+    <script src="carousel.js"></script>
 </body>
 </html>

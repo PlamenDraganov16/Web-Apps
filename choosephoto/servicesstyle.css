@@ -7,14 +7,13 @@ body {
     margin-right:20px ;
 }
 .logo img {
-    height: 50px; /* Adjust as needed */
+    height: 50px; 
     width: auto;
     
 }
 
 nav {
     display: flex;
-    /*justify-content: center;*/
     justify-content: space-between;
     align-items: center;
     padding: 20px 0px;
@@ -25,6 +24,21 @@ nav {
     left:0;
     
     z-index: 10;
+}
+
+.image-container {
+    display: flex;
+    gap: 10px; 
+    justify-content: center; 
+    margin-top: 10px;
+}
+
+.image-container img {
+    width: 48%; 
+    max-width: 400px; 
+    height: auto; 
+    border-radius: 8px; 
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); 
 }
 
 .links
@@ -77,7 +91,6 @@ p {
     margin-bottom: 40px;
 }
 
-/* Services Section */
 #services {
     width: 80%;
     margin: 50px auto;
@@ -111,7 +124,7 @@ p {
     color: #666;
 }
 
-/* Pricing Table */
+
 #pricing {
     width: 80%;
     margin: 50px auto;
@@ -152,7 +165,7 @@ table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-/* Testimonials Section */
+
 #testimonials {
     width: 80%;
     margin: 50px auto;
@@ -176,7 +189,7 @@ blockquote {
     max-width: 800px;
 }
 
-/* Contact CTA Section */
+
 #contact-cta {
     width: 80%;
     margin: 50px auto;
