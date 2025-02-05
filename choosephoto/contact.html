@@ -3,10 +3,9 @@
     <head>
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <link rel="stylesheet" href="style2.css"/>
-        <title>
-            Image Gallery
-        </title> 
+        <link rel="stylesheet" href="styleContact.css"/>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+        <title>Contact Us | Explore Bulgarian Cities</title>
     </head>
     <body>
         <nav>
@@ -15,12 +14,42 @@
                     <li><a href="index.html">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="services.html">Services</a></li>
-                    <li><a class="active"href="contact.html">Contact</a></li>
+                    <li><a class="active" href="contact.html">Contact</a></li>
                 </ul>
             </div>
             <div class="logo">
                 <img src="logo.png" loading="lazy" alt="Logo">
             </div>
         </nav>
+        <main>
+            <h1>Contact Us</h1>
+            <section class="contact-info">
+                <div class="contact-item">
+                    <h2>Get In Touch</h2>
+                    <p>If you have any questions or need further information, feel free to reach out to us!</p>
+                    <p><strong>Email:</strong> info@bulgarianguides.com</p>
+                    <p><strong>Phone:</strong> +123 456 789</p>
+                    <p><strong>Address:</strong> 123 Bulgarian Street, Sofia</p>
+                </div>
+                <div class="contact-form">
+                    <h2>Send Us a Message</h2>
+                    <form action="#" method="POST">
+                        <div class="form-group">
+                            <label for="name">Your Name</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Your Email</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Your Message</label>
+                            <textarea id="message" name="message" required></textarea>
+                        </div>
+                        <button type="submit" class="btn-submit">Send Message</button>
+                    </form>
+                </div>
+            </section>
+        </main>
     </body>
 </html>
